@@ -1,7 +1,5 @@
-.title, .subtitle{
-    margin: 0 0 0 20px;
-}
-
-.subtitle{
-    color: #aaa;
+.title {
+    padding-top: 10px;
+    color: #111;
+    font-weight: bold;
 }
