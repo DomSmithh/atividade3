@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import Button from './Button';
 import './Noticia.css';
 
-function Noticia({horario, desc}){
+function Noticia({num, desc}){
     const [numeroVisualizacoes, setNumeroVisualizacoes] = useState(0);
 
     function aumentarVisualizacoes(){
@@ -11,7 +10,7 @@ function Noticia({horario, desc}){
 
     return(
         <div className='card'>
-            <p className='data'>{horario}</p>
+            <p className="num">{num}</p>
             <p className="desc">{desc}</p>
         </div>
     );
